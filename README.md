@@ -1,9 +1,9 @@
 # Joint-Space-PID-Control
 PID controller for joint space tracking of the 3-DOF revolute-revolute-prismatic (RRP) robot manipulator in Gazebo
 
-Video for gazebo simulation result: 
+Video for gazebo simulation result: https://youtu.be/MB3ovGn2Q-A
 
-Documentation: 
+Documentation: https://github.com/RaviTeja163/Joint-Space-PID-Control/blob/main/Report.pdf
 
 The objective of this project is to develop a joint space position control for a 3-DOF revolute-revolute-prismatic (RRP) robot manipulator. The task is to implement a PID controller for joint space tracking of the robot in Gazebo. The control approach is considered a position-based control method, that is, the desired set-points provided to the controller are (xd, yd, zd) coordinates of the end-effector. The program first calculates the corresponding desired joint configurations using the inverse kinematics of the robot, and then use a PID controller to move each joint to the desired configuration and hence reaching the desired position in the task space. The robot joints are controlled using an independent joint control framework, that is, each joint of the robot is controlled via a separate PID controller.
 

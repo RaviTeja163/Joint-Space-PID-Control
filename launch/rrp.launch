@@ -1,0 +1,6 @@
+<launch>
+
+<node name="rrp_inverse_kinematics" pkg="rbe500_project" type="rrp_ik_server.py" respawn="false"/>
+<node name="rrp_controller" pkg="rbe500_project" type="rrp_pid.py" respawn="false" output="screen"/>
+
+</launch>
